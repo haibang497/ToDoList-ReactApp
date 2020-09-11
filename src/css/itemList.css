@@ -1,0 +1,53 @@
+.list {
+  color: white;
+  width: 300px;
+  background-color: forestgreen;
+  height: 50px;
+  margin: 20px auto;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+.list .group-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.list p {
+  padding: 10px;
+  position: relative;
+}
+
+.list p span {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.list p input {
+  background-color: forestgreen;
+  color: white;
+  border: 0px;
+  font-size: 18px;
+}
+
+.list p input:focus {
+  outline: none;
+}
+
+.faicons {
+  margin: 0 5px;
+  font-size: 15px;
+}
+/*# sourceMappingURL=itemList.css.map */

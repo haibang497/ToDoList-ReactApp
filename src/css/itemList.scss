@@ -1,0 +1,57 @@
+    .list {
+        color: white;
+        width: 300px;
+        background-color: forestgreen;
+        height: 50px;
+        margin: 20px auto;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        .group-icon {
+            display: flex;
+        }
+        p {
+            padding: 10px;
+            position: relative;
+            span {
+                position: absolute;
+                right: 10px;
+                cursor: pointer;
+                overflow: hidden;
+            }
+            input {
+                background-color: forestgreen;
+                color: white;
+                border: 0px;
+                font-size: 18px;
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+    }
+    
+    // .list p {
+    //     padding: 10px;
+    //     position: relative;
+    // }
+    // .list p span {
+    //     position: absolute;
+    //     right: 10px;
+    //     cursor: pointer;
+    // }
+    // .list p input {
+    //     background-color: forestgreen;
+    //     color: white;
+    //     border: 0px;
+    //     font-size: 18px;
+    // }
+    // .list p input:focus {
+    //     outline: none;
+    // }
+    .faicons {
+        margin: 0 5px;
+        font-size: 15px;
+    }
